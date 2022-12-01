@@ -19,7 +19,7 @@ In your web browser go to: http://localhost:8000/graphql
 Enter the query:
 
 ```graphql
-subscription LUNA {
+subscription {
   countSeconds(upTo: 30)
 }
 ```
