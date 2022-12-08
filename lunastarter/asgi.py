@@ -14,7 +14,3 @@ from django.core.asgi import get_asgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'lunastarter.settings')
 
 application = get_asgi_application()
-
-from luna_ws import add_ws_app
-
-application = add_ws_app(application)
