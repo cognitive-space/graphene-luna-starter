@@ -9,7 +9,6 @@ See [Graphene Luna](https://github.com/cognitive-space/graphene-luna) for more u
 ```bash
 git clone git@github.com:cognitive-space/graphene-luna-starter.git
 cd graphene-luna-starter
-mkdir __pypackages__
 pdm install
 pdm run gunicorn lunastarter.asgi:application -k uvicorn.workers.UvicornWorker
 ```
